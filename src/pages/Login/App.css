@@ -1,0 +1,66 @@
+#App {
+  background-color: #282c34;
+  height:100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.boxLogin{
+  display:flex;
+  flex-direction: column;
+  width: 25%;
+  height: 50%;
+  background-color: #40434b;
+  border-radius: 15px;
+  padding: 20px;
+}
+.boxLogin .textTitle{
+  align-self: center;
+  color: #69c0ce;
+}
+.boxLogin .titleInput{
+  margin-top: 20px;
+}
+.boxLogin .inputLogin{
+  margin-top: 10px;
+  height: 25px;
+  border-radius: 5px;
+  border: solid 2px #b3b3b6;
+}
+.boxLogin .buttonForgetPassword{
+  display: flex;
+  align-self: flex-end;
+  border:none;
+  background-color: transparent;
+  margin-top:5px;
+  font-weight: 600;
+  color: #69c0ce;
+  cursor:pointer
+}
+
+.boxLogin .buttonsLogin{
+  margin-top: 20px;
+  width:40%;
+  height:40px;
+  align-self: center;
+  border:solid 3px #55959f;
+  font-weight: 600;
+  border-radius: 10px;
+  background-color: #55959f;
+  color:#fff;
+  cursor:pointer;
+  transition: 500ms;
+}
+.boxLogin .buttonsLogin:hover{
+  background-color:#6ebcc8;
+  border-color:#6ebcc8 ;
+}
+.boxLogin #enter{
+  background-color: transparent;
+}
+.boxLogin #enter:hover{
+  background-color: #6ebcc8;
+  border-color:#6ebcc8 ;
+}

@@ -1,0 +1,53 @@
+#container{
+    width: 100vw;
+    height: 100vh;
+    display:flex;
+    align-items:center;
+    background-color: #282c34;
+}
+#container .boxInfosShops{
+    width: 65vh;
+    height:  40vh;
+    background-color:#5c6067;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding:20px;
+    margin-top: 15vw;
+}
+.boxInfosShops .textTitle{
+    align-self: center;
+    color:#c52756
+}
+.boxInfosShops .titleInput{
+    margin-top: 20px;
+}
+.boxInfosShops .titleInput:first-child{
+    margin-top: 50px;
+}
+.boxInfosShops .selectShops{
+    height: 30px;
+    border-radius: 5px;
+    padding-inline: 10px;
+    margin-top: 10px;
+}
+.boxInfosShops .inputShops{
+    margin-top: 10px;
+    height: 30px;
+    border-radius: 5px;
+    border: solid 2px #b3b3b6;
+}
+.boxInfosShops .buttonRegister{
+    margin-top: 40px;
+    align-self: center;
+    height: 3rem;
+    width: 50%;
+    border-radius:  50px;
+    background-color: #c52756;
+    border:none;
+    cursor: pointer;
+    transition: 600ms;
+}
+.boxInfosShops .buttonRegister:hover{
+    background-color: #cf446d
+}

@@ -1,0 +1,116 @@
+#container{
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    background-color: #282c34;
+}
+#container .boxShops{
+    border-radius: 10px;
+    margin-top:50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    height:70%;
+    background-color: #383b41;
+}
+
+#container .boxAddShops{
+    margin-inline:10px;
+    height: 12rem; 
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content: center;
+    border-radius: 15px;
+    background-color: #383b41;
+    border: 3px solid #52545a;
+    transition: 600ms;
+    cursor:pointer;
+    color:#FFF;
+}
+#container .divShops  .boxAddShops .textButtonBig{
+    
+
+    padding:5px;
+    font-size: 0.8rem;
+    
+}
+#container .boxAddShops:hover{
+    background-color: #52545a;
+}
+#container .divShops{
+    width: 90%;
+    height:90%;
+    display: grid;
+    flex-direction: row;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+}
+#container .divShops .divGetCode{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: space-between;
+    margin-inline:10px;
+    height: 12rem;
+    background-color: #52545a;
+    border-radius:10px
+}
+#container .divShops .divGetCode .titleGetCode{
+    color:#FFF
+}
+#container .divShops .divGetCode .imageMarketplace{
+    width: 100px;
+    height: 100px;
+    margin-bottom: 15px;
+}
+#container .divShops .divGetCode .buttonGetCode{
+    width: 95%;
+    height: 50px;
+    margin-bottom: 15px;
+    cursor:pointer;
+    background-color: #c52756;
+    transition:600ms;
+    border-radius:15px;
+    border:none;
+    color:#FFF
+}
+#container .divShops .divGetCode .buttonGetCode:hover{
+    background-color: #cf446d;
+}
+#container .boxShops .divSwitch{
+    width: 65px;
+    height:30px;
+    background-color: #cf446d;
+    border-radius: 25px;
+    display: flex;
+    margin-bottom: 5px;
+    transition:600ms
+}
+
+#container .boxShops .divSwitch .indicatorSwitch{
+    width: 30px;
+    height:30px;
+    background-color: #FFF;
+    border-radius: 25px;
+    display: flex;
+    transition:400ms;
+    position: relative;
+    
+}
+#container .boxShops #switchColorOff{
+    background-color: #cf446d;
+}
+#container .boxShops #switchColorOn{
+    background-color: #59cf44;
+}
+#container .boxShops .divSwitch #switchOn{
+    margin-left: 34px;
+}
+#container .boxShops .divSwitch #switchOff{
+    margin-left: 0px;
+}
+
+
